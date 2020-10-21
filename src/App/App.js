@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { getReservations } from '../apiCalls';
+import { getReservations, postReservation } from '../apiCalls';
 import CardContainer from '../CardContainer/CardContainer'
 import Form from '../Form/Form'
 
@@ -40,10 +40,3 @@ class App extends Component {
 }
 
 export default App;
-
-/*
-Components Needed:
-Reservation Container
-Reservation Form
-Reservation Card
-*/
