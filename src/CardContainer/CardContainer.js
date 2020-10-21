@@ -7,7 +7,6 @@ const CardContainer = ({ reservations }) => {
         return <Card { ...reservation } />
     })
     return <section className='card-container'>{cards}</section>
-
 };
 
 export default CardContainer;
